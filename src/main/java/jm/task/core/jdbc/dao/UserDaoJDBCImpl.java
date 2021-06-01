@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl extends Util implements UserDao {
+
     private static final String CREATE_USER_TABLE =
             "CREATE TABLE IF NOT EXISTS User "
                     + "(id INT(5) NOT NULL AUTO_INCREMENT,"
